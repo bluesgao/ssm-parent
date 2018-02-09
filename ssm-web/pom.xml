@@ -10,11 +10,23 @@
     <packaging>war</packaging>
     <name>ssm-web Maven Webapp</name>
     <url>http://maven.apache.org</url>
+    <description>web模块</description>
+
     <dependencies>
+        <dependency>
+            <groupId>com.gx.app</groupId>
+            <artifactId>ssm-biz</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <scope>test</scope>
+        </dependency>
+        <!--spring-webmvc-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
         </dependency>
     </dependencies>
     <build>

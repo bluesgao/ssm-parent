@@ -9,6 +9,7 @@
 
     <artifactId>ssm-util</artifactId>
     <packaging>jar</packaging>
+    <description>工具模块</description>
 
     <name>ssm-util</name>
     <url>http://maven.apache.org</url>

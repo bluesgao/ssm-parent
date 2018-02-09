@@ -9,6 +9,7 @@
 
     <artifactId>ssm-api</artifactId>
     <packaging>jar</packaging>
+    <description>API模块-此模块中的服务是提供给外围系统调用的</description>
 
     <name>ssm-api</name>
     <url>http://maven.apache.org</url>
